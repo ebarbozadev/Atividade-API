@@ -1,0 +1,66 @@
+label {
+    display: block;
+    font-size: 1.2rem;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+
+    color: var(--cinza);
+
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: var(--cinza);
+}
+
+input:focus{
+    outline: none;
+}
+
+button {
+    display: block;
+    padding: 10px 30px;
+    background-color: var(--verde);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    height: calc(100vh - 100px);
+}
+
+.formulario form {
+    width: 400px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status input {
+    width: 16px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button:nth-child(2){
+    background-color: rgb(255, 4, 4);
+}

@@ -1,0 +1,66 @@
+.header {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 4px 7px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 1.3rem;
+
+    margin-right: 200px;
+}
+
+.header h1 span {
+    font-weight: normal;
+}
+
+.opcoes ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+    width: 240px;
+}
+
+.opcoes ul li {
+    font-size: 1.3rem;
+}
+
+.opcoes ul li select {
+    background-color: transparent;
+    border: none;
+
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.opcoes ul li select:focus {
+    outline: none;
+}
+
+.cadastrarDropdown {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(235, 235, 235);
+
+    position: absolute;
+    top: 50px;
+    right: 700px;
+
+    font-size: 1.3rem;
+}
+
+.cadastrarDropdown a {
+    padding: 10px;
+}
+
+.cadastrarDropdown a:hover {
+    background-color: rgb(196, 196, 196);
+}

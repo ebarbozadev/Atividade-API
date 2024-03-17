@@ -1,0 +1,21 @@
+:root {
+  --preto: #1a1a1a;
+  --cinza: rgba(94, 94, 94, 0.6);
+  --verde: #02bb11;
+  --vermelho: #bb0202;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+a, select, h1, span, p, li {
+  text-decoration: none;
+  color: var(--preto);
+}
